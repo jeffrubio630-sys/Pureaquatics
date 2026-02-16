@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body style="background-color: black;">
+
+    
+  <nav class="navbar navbar-expand-lg bg-black sticky-top ">
+  <div class="container-fluid  ">
+    <div class="ms-2"></div> 
+    <ul>
+    <img src="photo/logo.jpg" alt="Logo" style="height: 45px; width: auto;" class="me-2 rounded-circle">
+    <a class="  navbar-brand text-light" href="#">PureAquatics</a>
+    </ul>
+    <button class="navbar-toggler bg-light   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon  "></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class=" navigation navbar-nav ms-auto mb-2  align-items-center">
+        <li class="nav-item me-3 ">
+          <a class="nav-link "  aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link " href="Contact.html">Contact</a>
+        </li>
+      
+      <div class="me-3 "></div>
+      <a class="sign btn btn-outline-success " href="login.html">Sign In</a>
+         <div class="me-5"></div> <div class="me-5"></div> 
+    </ul>
+    </div>
+  </div>
+</nav>
+  
+
+<section>
+<div class="container-fluid bg-white p-3 p-md-5">
+  
+  <div class="row justify-content-center align-items-start g-4">
+    
+    <div class="col-12 col-md-6 col-lg-5">
+      <h1 class="text-black mb-4">Contact Us</h1>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label fw-semibold">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label fw-semibold">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="subject" class="form-label fw-semibold">Subject</label>
+          <select class="form-select" id="subject">
+            <option selected>General Inquiry</option>
+            <option value="1">Support</option>
+            <option value="2">Feedback</option>
+          </select>
+        </div>
+
+        <div class="mb-4">
+          <label for="message" class="form-label fw-semibold">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="How can we help?"></textarea>
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary btn-lg rounded-3">Send Message</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <div class="card shadow-sm h-100">
+        <div class="ratio ratio-16x9">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10718.815696198428!2d120.97477720299032!3d14.581669753471438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03f50c750d%3A0x84128778afa3e60c!2sManila%20Ocean%20Park!5e1!3m2!1sen!2sph!4v1771208818529!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Our Location</h5>
+          <p class="card-text">Visit us at our main headquarters. We are open Monday through Friday.</p>
+          <a href="https://maps.app.goo.gl/aJPnR77A4BvaZSr7A" class="btn btn-outline-primary w-100">Get Directions</a>
+        </div>
+      </div>
+    </div>
+ </section>
+  
+<footer class="bg-black text-white p-1 mt-5" style="margin-top: 50px">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h4 class="fw-bold">PureAquatics</h4>
+        <p class="text-secondary">Building the future of the web, one component at a time.</p>
+      </div>
+    </div>
+    <hr class="mt-4 border-secondary">
+    <div class="text-center">
+      <small class="text-secondary">&copy; 2026 Your Brand. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
